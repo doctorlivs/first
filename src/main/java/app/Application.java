@@ -70,7 +70,7 @@ public class Application implements Consumer<Event> {
             window.close();
         } else if (event instanceof EventFrameSkija ee) {
             Surface s = ee.getSurface();
-            s.getCanvas().clear(0xFF264653);
+            s.getCanvas().clear(Colors.APP_BACKGROUND_COLOR);
         }
 
     }
