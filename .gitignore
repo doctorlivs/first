@@ -1,0 +1,4 @@
+docs/*
+*.class
+*.xml
+.idea/*
