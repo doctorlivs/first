@@ -163,6 +163,9 @@ public class Application implements Consumer<Event> {
             Surface s = ee.getSurface();
             paint(s.getCanvas(), new CoordinateSystem2i(s.getWidth(), s.getHeight()));
         }
+        panelControl.accept(event);
+        panelRendering.accept(event);
+        panelLog.accept(event);
 
     }
 
