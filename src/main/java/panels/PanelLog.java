@@ -40,7 +40,7 @@ public class PanelLog extends GridPanel {
 
         // создаём первый заголовок
         label = new Label(window, false, PANEL_BACKGROUND_COLOR, PANEL_PADDING,
-                1, 1, 0, 0, 1, 1, "Панель управления", true, true);
+                1, 1, 0, 0, 1, 1, "Панель лога", true, true);
 
 
     }
